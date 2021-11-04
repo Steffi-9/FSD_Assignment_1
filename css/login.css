@@ -1,0 +1,41 @@
+.login{
+    background-image: url(/images/Tea-Garden_Munnar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    
+}
+
+.login_form{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.signUp{
+    background-image: url(/images/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    padding: 100px;
+    text-align: center;
+}
+.jumbotron{
+    height: 80vh;
+}
+/* The animation code */
+@keyframes animations{
+    from {background-image: url(/images/signup_2_500x500.png);}
+    to {background-image: url(/images/Backwater_Campaign_Img2_1_500x500.jpg);}
+   
+    /* to {src: url(/images/Backwater_Campaign_Img2_1_500x500.jpg);} */
+}
+/* The element to apply animation to */
+ .signUp div.animations{
+    width: 100%;
+    animation-name: animations;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

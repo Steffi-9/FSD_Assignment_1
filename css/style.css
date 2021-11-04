@@ -1,0 +1,67 @@
+ .nav-background{
+    
+    background-color: rgb(248, 212, 7) !important;
+    height: 15%;
+   
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+#header_height{
+    margin-top: 1%;
+    
+}
+
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    max-height:600px;
+}
+
+.destinations{
+    
+    background-color:lightyellow;
+} 
+ 
+.text-align{
+    text-align: justify;
+
+}
+.destinations img:hover{
+    box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+  
+}
+
+.district_background_images{
+    background-image: url(/images/distict.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tvm_district_page{
+    width: 50%;
+    text-align: justify;
+    margin-left: 25%;
+    
+
+}
+
+.hotspots_width{
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
