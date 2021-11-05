@@ -1,5 +1,5 @@
 .login{
-    background-image: url(/images/Tea-Garden_Munnar.jpg);
+    background-image: url(../images/Tea-Garden_Munnar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
@@ -13,7 +13,7 @@
 }
 
 .signUp{
-    background-image: url(/images/signup.jpg);
+    background-image: url(../images/signup.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
