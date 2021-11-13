@@ -47,6 +47,7 @@ function validate_password(){
         if(password.length === 0){
             label_2.innerHTML="";
             label_3.innerHTML="";
+            // password.style.border="";
         }
 
         // Create an array and push all the conditions you want for password validation
@@ -96,6 +97,8 @@ function validate_password(){
        label_2.innerHTML = strenght;
        label_2.style.color = color;
        label_3.innerHTML = text;
+       label_3.style.color = color;
+    //    password.style.border = "2px solid red";
         
        
 }
@@ -105,10 +108,12 @@ function reenter_password(){
     var label_4 = document.getElementById("label_4");
     var password = document.getElementById("pwd_strenght");
     var retypepwd = document.getElementById("retypepwd");
+    label_4.innerHTML="";
+    retypepwd.style.border="";
     if( password.value != retypepwd.value){
         label_4.innerHTML="Password doesn't match";
-
-    }else{label_4.innerHTML="";}
+        retypepwd.style.border="2px solid red";
+    }
 }
 
 function validate_phonenumber(){
